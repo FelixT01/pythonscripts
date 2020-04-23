@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+# This is an example of gradiant decent algorithm, used by the AI Training
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -8,6 +10,7 @@ import matplotlib.pyplot as plt
 
 def f(V): return np.sin(0.5*V[0]*V[0] - 0.25*V[1]
                         * V[1] + 3)*np.cos(2*V[0] + 1 - np.e ** V[1])
+
 
 # data
 res = 100
